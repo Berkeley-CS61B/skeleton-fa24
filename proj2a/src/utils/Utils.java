@@ -10,6 +10,6 @@ public class Utils {
     public static final String Q_WORDS_FILE = PREFIX + "words_that_start_with_q.csv";
     public static final String SHORT_WORDS_FILE = PREFIX + "very_short.csv";
     public static final String TOTAL_COUNTS_FILE = PREFIX + "total_counts.csv";
-    public static final String SHORTER_WORDS_FILE = PREFIX + "shorter_words_file.csv";
+    public static final String SHORTER_WORDS_FILE = PREFIX + "less_short.csv";
 }
 
