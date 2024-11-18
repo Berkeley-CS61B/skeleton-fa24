@@ -37,6 +37,7 @@ public class GameLoopDemo {
         while (true) {
             while (StdDraw.hasNextKeyTyped()) {
                 c = StdDraw.nextKeyTyped();
+                c = Character.toLowerCase(c);
 
                 switch (c) {
                     case '1':
@@ -55,9 +56,6 @@ public class GameLoopDemo {
                         toggle(world, 4, 0);
                         break;
                     case 'q':
-                        System.exit(0);
-                        break;
-                    case 'Q':
                         System.exit(0);
                         break;
                     default:
