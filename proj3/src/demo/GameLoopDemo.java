@@ -22,6 +22,7 @@ public class GameLoopDemo {
 
     public static void main(String[] args) {
         // initialize the tile rendering engine with a window of size WIDTH x HEIGHT
+        // This WIDTH and HEIGHT is very small!
         TERenderer ter = new TERenderer();
         ter.initialize(WIDTH, HEIGHT);
 
